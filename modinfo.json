@@ -1,0 +1,26 @@
+{
+    "context": "client",
+    "identifier": "com.pa.nikmx.stats-time-axis",
+    "display_name": "Charts Time displayed in Minutes",
+    "description": "Formats the X axis of the in-game / replay stat screen graph as minutes:seconds instead of raw seconds, and places the ticks on whole time intervals",
+    "author": "NikolaMX",
+    "version": "1.0",
+    "date": "2026-08-19",
+    "build": "124671",
+    "titansOnly": true,
+    "signature": "not yet implemented",
+    "forum": "https://steamcommunity.com/app/386070/discussions/0/599650671167384160/",
+	"icon": "https://raw.githubusercontent.com/NikolaMX/Exiles-Faction/refs/heads/main/icon.png",
+    "category": [
+        "titans",
+        "ui"
+    ],
+    "id": "stats-time-axis",
+    "priority": 100,
+    "enabled": true,
+    "scenes": {
+        "global_mod_list": [
+            "coui://ui/mods/nikmx_stats_time_axis/gamestats_time_axis.js"
+        ]
+    }
+}
